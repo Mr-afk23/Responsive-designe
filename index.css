@@ -13,9 +13,10 @@
         "main"
         "sidebar"
         "footer";
+        background-color: red;
       grid-template-columns: 1fr; 
-       
     }
+    
   }
 
   /* Tabletas */
@@ -27,6 +28,7 @@
       "sidebar"
       "footer";
     grid-template-columns: 1fr;
+    background-color: blue;
     }
   }
   /* Teléfonos */
@@ -38,5 +40,6 @@
         "sidebar"
         "footer";
       grid-template-columns: 1fr;
+      background-color: aqua;
     }
   }
